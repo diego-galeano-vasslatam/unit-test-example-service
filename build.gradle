@@ -22,4 +22,13 @@ publishing {
             }
         }
     }
+    repositories {
+        maven {
+            url "$repositoryUrl"
+            credentials {
+                username = "$repoUser"
+                password = "$repoPassword"
+            }
+        }
+    }
 }
