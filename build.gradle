@@ -26,8 +26,8 @@ publishing {
         maven {
             url "$repositoryUrl"
             credentials {
-                username = "$repoUser"
-                password = "$repoPassword"
+                username = "$repositoryUser"
+                password = "$repositoryPassword"
             }
         }
     }
